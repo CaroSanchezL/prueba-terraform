@@ -11,7 +11,7 @@ cidr_block = "10.0.0.0/16"
 #     default = "aws_vpc.${var.vpc_name}.id"
 # }
 
-#  "subnet_cidr_block" {}
+#subnet_cidr_block = ["10.0.0.0/25", "10.0.0.128/25"]
 
 #  "subnet_availability_zone" {}
 
